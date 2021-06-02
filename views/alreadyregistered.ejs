@@ -1,0 +1,38 @@
+<%- include("partials/header"); -%>
+
+<div>
+    <form method="post" id="form">
+        <label for="fname">First Name</label> <br>
+        <input type="text" id="fname" name="fname" autocomplete="off" required> <br> <br>
+
+        <label for="lname">Last Name</label> <br>
+        <input type="text" id="lname" name="lname" autocomplete="off" required> <br> <br>
+
+        <button type="submit" class="btn btn-success btn-lg">Check</button>
+    </form>
+</div>
+
+
+<!-- CSS -->
+<style>
+    .footer {
+        position: relative;
+    }
+
+    #fname {
+        border: solid 2px #4267b2;
+    }
+
+    #lname {
+        border: solid 2px #4267b2;
+    }
+
+    #form {
+        text-align: center;
+        position: relative;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+</style>
+
+<%- include("partials/footer"); -%>

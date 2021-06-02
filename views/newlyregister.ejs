@@ -1,0 +1,44 @@
+<%- include("partials/header"); -%>
+
+<div>
+  <form method="post" id="form">
+    <h4>Fill up the details</h4> <br>
+
+    <label for="fname">First Name</label> <br>
+    <input type="text" id="fname" name="fname" autocomplete="off" required> <br> <br>
+
+    <label for="lname">Last Name</label> <br>
+    <input type="text" id="lname" name="lname" autocomplete="off" required> <br> <br>
+
+    <label for="choose">Choose Date</label> <br>
+    <input type="date" value="26-01-2021" name="date" required> <br> <br>
+
+    <button type="submit" class="btn btn-success btn-lg">Submit</button>
+
+  </form>
+</div>
+
+
+<!-- CSS -->
+<style>
+  .footer {
+    position: relative;
+  }
+
+  #fname {
+    border: solid 2px #4267b2;
+  }
+
+  #lname {
+    border: solid 2px #4267b2;
+  }
+
+  #form {
+    text-align: center;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+</style>
+
+<%- include("partials/footer"); -%>
