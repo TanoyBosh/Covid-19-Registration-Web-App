@@ -21,4 +21,5 @@
 3. Set up MongoDB Atlas.
 4. Run: `npm start`
 
-Explore the code, provide feedback, or contribute! Questions? Let's chat. 🚀
+### Author
+[Your Name]
