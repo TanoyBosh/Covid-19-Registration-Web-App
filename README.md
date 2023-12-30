@@ -1,7 +1,7 @@
 # Covid-19-Vaccine-Registration
 ### About My Web App
 
-🌐 I've built a registration system using Node.js, Express, EJS, and MongoDB. Users can register for events on specific dates.
+ I've built a registration system using Node.js, Express, EJS, and MongoDB. Users can register for events on specific dates.
 
 #### Tech Stack:
 
