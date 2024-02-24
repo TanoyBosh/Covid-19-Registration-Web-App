@@ -22,4 +22,4 @@
 4. Run: `npm start`
 
 ### Author
-[Your Name]
+[Tanoy Bosh]
