@@ -14,12 +14,5 @@
 1. Simple registration process.
 2. Data stored in MongoDB Atlas.
 
-#### How to Run:
-
-1. Clone repo: `git clone [repository-url]`
-2. Install: `npm install`
-3. Set up MongoDB Atlas.
-4. Run: `npm start`
-
 ### Author
 [Tanoy Bosh]
